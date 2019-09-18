@@ -1,0 +1,19 @@
+.TitleArea{
+  display: inline;
+}
+
+.TitleText{
+  font-family:Arial;
+  font-size: 100px;
+  left: 20px;
+  background-color: #DDD;
+}
+
+.LogoImage{
+  position: fixed;
+  algin:right;
+}
+
+body{
+  background-Image: url(https://s-media-cache-ak0.pinimg.com/236x/ae/16/c3/ae16c33307a10d40fefde8be5e42f58b.jpg);
+}
