@@ -1,3 +1,4 @@
+/*All styles associated with the Title*/
 .TitleText{
   position:absolute;
   top: 50%;
@@ -7,11 +8,10 @@
   color:white;
   background-color: #F2A25C;
   border-style: solid;
-  border-width: 10px;
+  border-width: 20px;
 }
 .TitleImage{
   width:100%; /*Stretches the image across the whole page*/
-
 }
 .SubTitleText{
   font-size: 80px;
@@ -22,40 +22,57 @@
   background-color: #8C6961;
 }
 
+/*All Styles associated with the Everythiong after the Title*/
 .BodyDivs{
   text-align: center;
 }
 .SubDivImage1{
-  width:500px;
-  height: 355px;
+  width:800px;
+  /*height: 355px;*/
   margin-top: 100px;
   margin-left: 60px;
   margin-right: 60px;
   border-style: solid;
-  border-width: 10px;
+  border-width: 60px;
   color:#141F26;
 }
 .SubDivImage2{
-  width:500px;
+  width:800px;
   margin-top: 40px;
   margin-left: 60px;
   margin-right: 60px;
   border-style: solid;
-  border-width: 10px;
+  border-width: 60px;
   color:#141F26;
 }
 .SubDivText{
   display: inline;
-  font-size: 100px;
+  font-size: 30px;
   color: white;
   text-align: center;
-  margin-left: 40px;
-  margin-right: 40px;
+  padding-left: 20px;
+  padding-right: 10px;
+  /*margin-left: 10px;
+  margin-right: 10px;*/
 }
 
+/*All Styles associated with the tags*/
 body{
   background-color: #F2A25C/*#141F26*/;
   border-style: solid;
   border-width: 10px;
   border-color:white;
+}
+
+figure{
+  text-align: center;
+  font-size:50px;
+  color:white;
+}
+
+button{
+  width: auto;
+  height:100px;
+  text-align: center;
+  font-size: 70px;
 }
