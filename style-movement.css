@@ -1,19 +1,61 @@
-.TitleArea{
-  display: inline;
-}
-
 .TitleText{
-  font-family:Arial;
-  font-size: 100px;
-  left: 20px;
-  background-color: #DDD;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 150px;
+  color:white;
+  background-color: #F2A25C;
+  border-style: solid;
+  border-width: 10px;
+}
+.TitleImage{
+  width:100%; /*Stretches the image across the whole page*/
+
+}
+.SubTitleText{
+  font-size: 80px;
+  text-align: center;
+  border-style: solid;
+  border-width: 10px;
+  color:#141F26;
+  background-color: #8C6961;
 }
 
-.LogoImage{
-  position: fixed;
-  algin:right;
+.BodyDivs{
+  text-align: center;
+}
+.SubDivImage1{
+  width:500px;
+  height: 355px;
+  margin-top: 100px;
+  margin-left: 60px;
+  margin-right: 60px;
+  border-style: solid;
+  border-width: 10px;
+  color:#141F26;
+}
+.SubDivImage2{
+  width:500px;
+  margin-top: 40px;
+  margin-left: 60px;
+  margin-right: 60px;
+  border-style: solid;
+  border-width: 10px;
+  color:#141F26;
+}
+.SubDivText{
+  display: inline;
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 body{
-  background-Image: url(https://s-media-cache-ak0.pinimg.com/236x/ae/16/c3/ae16c33307a10d40fefde8be5e42f58b.jpg);
+  background-color: #F2A25C/*#141F26*/;
+  border-style: solid;
+  border-width: 10px;
+  border-color:white;
 }
