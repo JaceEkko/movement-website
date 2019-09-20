@@ -119,14 +119,6 @@ figure{
   color:white;
 }
 
-figcaption{
-  position:static;
-  border-style: solid;
-  border-width: 10px;
-  color:#141F26;
-  background-color: #8C6961;
-}
-
 button{
   width: auto;
   height:100px;
