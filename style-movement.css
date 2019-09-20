@@ -64,6 +64,43 @@
   margin-right: 10px;*/
 }
 
+.TestImg{
+  float:left;
+  width:700px;
+  margin-top: 50px;
+  border-style: solid;
+  border-width: 20px;
+  color:#141F26;
+  margin-left: 40px;
+}
+.TestTxt{
+  float:left;
+  font-size:100px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 40px;
+  color:white;
+}
+.TestTxtDes{
+  float:left;
+  font-size:30px;
+  margin-top: 30px;
+  margin-bottom: auto;
+  margin-left: 40px;
+  color:white;
+}
+.TestSubDivOutline{
+  float:left;
+  border-style: solid;
+  border-width: 10px;
+  color:#141F26;
+  background-color: #8C6961;
+  margin-top: 50px;
+}
+
+.GoBackBut{
+  margin-top: 50px;
+}
 /*All Styles associated with the tags*/
 body{
   background-color: #F2A25C/*#141F26*/;
@@ -80,6 +117,14 @@ figure{
   text-align: center;
   font-size:50px;
   color:white;
+}
+
+figcaption{
+  position:static;
+  border-style: solid;
+  border-width: 10px;
+  color:#141F26;
+  background-color: #8C6961;
 }
 
 button{
