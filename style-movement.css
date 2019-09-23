@@ -123,6 +123,10 @@ I use padding to space out contents within divs*/
   background-color: #8C6961;
   margin-top: 50px;
 }
+.TestSideBySide{
+  box-sizing: content-box;
+  float: left;
+}
 /*----------------------------------------------------------*/
 
 /*All Styles associated with the tags*/
