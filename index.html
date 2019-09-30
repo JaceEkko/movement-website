@@ -1,44 +1,44 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
   <head>
-
-    <title>Clean the Oceans - Home</title>
+    <link rel="stylesheet" type="text/css" href="style-movement-F.css">
     <!--Fonts used Vollkorn: titles, Cormorant: all other text-->
     <link href="https://fonts.googleapis.com/css?family=Vollkorn+SC&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cormorant&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" type="text/css" href="style-movement.css">
-
+    <title>Clean Our Ocean - Home</title>
   </head>
-
   <body>
-    <!--Everything associated with the Title-->
-    <div>
-      <img class=TitleImage src="Images/CleanWaterTitle.jpg" alt="Sunset Water">
-      <div class=TitleText>Pure Water</div><!--Title Text places text inside the image above-->
-      <div class=SubTitleText><font color=white><b>Keep Our Oceans Clean</b></font></div><!--To avoid making everything white in the div, I use the font tags to make the Text white-->
+
+    <div class=PageFlow><!--Keeps everything in the page in a column-->
+      <div class="SpaceDivisions TitleDiv"><!--I use two extra divs to put the title text in the middle, while also keeping the border around it from hitting the ends of the page-->
+        <div><!--USED FOR BLANK SPACE--></div>
+        <div><p class=TitleText>Pure Water</p></div>
+        <div><!--USED FOR BLANK SPACE--></div>
+      </div>
+
+      <div><p class=MottoText>Keep Our Oceans Clean</p></div>
+
+      <div class=SideBySideDivs><!--Puts the two page links next to each other-->
+        <div>
+          <img class=SideBySideImg1 src="DirtyWaterBody.jpg"></img>
+          <div class=SideBySideText>
+            <p>Why you should care about our oceans.</p>
+            <div class=CenterContent>
+              <a href="about.html"><button type="button" name="LEARN1">LEARN</button></a><!--Link to about.html-->
+            </div>
+          </div>
+        </div>
+        <div>
+          <img class=SideBySideImg2 src="PeopleCleaningWaterBody.jpg"></img>
+          <div class=SideBySideText>
+            <p>Learn about some groups that make a difference</p>
+            <div class=CenterContent>
+              <a href="group.html"><button type="button" name="LEARN2">LEARN</button></a><!--Link to groups.html-->
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <div class=BodyDivs>
-      <!--Everything associated with the second page of my website-->
-      <figure><!--This tag will attach a figure to the image-->
-        <img class=SubDivImage1 src="Images/DirtyWaterBody.jpg"></img>
-        <figcaption style="text-align:center">Why should you care about our oceans</figcaption><!--This is what the figure reads-->
-      </figure>
-      <a href="about.html"><button type="button" name="LEARN">LEARN</button></a><!--Added buttons to link to the different pages in my website-->
-
-      <!--Everything associated with the third page of my website-->
-      <figure>
-        <img class=SubDivImage1 src="Images/PeopleCleaningWaterBody.jpg"></img>
-        <figcaption style="text-align:center">Learn about some groups that make a difference</figcaption>
-      </figure>
-      <a href="test.html"><button type="button" name="LEARN">LEARN</button></a>
-
-    </div>
-
-    <!--<br>This is here to prevent the last button from touching the bottom of the page, didn't use ,margin because I l-->
 
   </body>
-
 </html>
