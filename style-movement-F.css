@@ -1,3 +1,6 @@
+/*All Titles used the Vollkorn font, everything else used the Cormorant font*/
+
+/*Styles used for formatting a page as a whole*/
 .PageFlow{
   display: flex;
   flex-direction: column;
@@ -13,6 +16,7 @@
   margin-right: auto;
 }
 
+/*Styles associated with the home page (index.html)*/
 .TitleDiv{
   background-image: url("wavyWater.gif");
   background-size: cover;
@@ -58,8 +62,8 @@
 .SideBySideImg1{
   display: flex;
   justify-content: center;
-  width:90vmin;
-  height:64vmin;
+  width:71vmin;
+  height:50vmin;
   border-style: solid;
   border-width: 2vmin;
   color: #171831;
@@ -67,7 +71,7 @@
 .SideBySideImg2{
   display: flex;
   justify-content: center;
-  width:90vmin;
+  width:71vmin;
   border-style: solid;
   border-width: 2vmin;
   color: #171831;
@@ -83,12 +87,12 @@
   background-color: #F2E3D5;
   padding:3vmin;
   margin-top: 0px;
-  width:84vmin;
+  width:65vmin;
   margin-bottom: 10vmin;
   font-family: 'Cormorant', serif;
 }
 
-.OtherPagesHeader{
+.OtherPagesHeader{/*used for the header text of group and about.html*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,6 +106,7 @@
   margin-top: 5px;
 }
 
+/*Styles associated with groups.html*/
 .SideBySideDivs2{
   display: flex;
   justify-content: center;
@@ -142,6 +147,8 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+/*Styles associated with about.html*/
 .AboutDiv{
   display: flex;
   flex-direction: column;
@@ -179,6 +186,7 @@
   font-family: 'Cormorant', serif;
 }
 
+/*All the tag styles used*/
 body{
   background-color: #CB7B6F;
   border-style: solid;
