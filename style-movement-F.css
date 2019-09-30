@@ -1,0 +1,194 @@
+.PageFlow{
+  display: flex;
+  flex-direction: column;
+}
+
+.SpaceDivisions{
+  display: flex;
+  justify-content: space-around;
+}
+
+.CenterContent{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.TitleDiv{
+  background-image: url("wavyWater.gif");
+  background-size: cover;
+  background-position: center;
+  height:80vmin;
+}
+.TitleText{
+  display: block;
+  font-size: 20vmin;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color:white;
+  padding: 3vmin;
+  flex-flow: nowrap;
+  background-color: #CB7B6F;
+  border-style: solid;
+  border-width: 2vmin;
+  font-family: 'Vollkorn SC', serif;
+}
+
+.MottoText{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10vmin;
+  color: #171831;
+  border-style: solid;
+  border-width: 2vmin;
+  background-color: #F2E3D5;
+  padding:3vmin;
+  margin-top: 0px;
+  font-family: 'Cormorant', serif;
+}
+
+
+
+.SideBySideDivs{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.SideBySideImg1{
+  display: flex;
+  justify-content: center;
+  width:90vmin;
+  height:64vmin;
+  border-style: solid;
+  border-width: 2vmin;
+  color: #171831;
+}
+.SideBySideImg2{
+  display: flex;
+  justify-content: center;
+  width:90vmin;
+  border-style: solid;
+  border-width: 2vmin;
+  color: #171831;
+}
+.SideBySideText{
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  font-size: 5vmin;
+  color: #171831;
+  border-style: solid;
+  border-width: 2vmin;
+  background-color: #F2E3D5;
+  padding:3vmin;
+  margin-top: 0px;
+  width:84vmin;
+  margin-bottom: 10vmin;
+  font-family: 'Cormorant', serif;
+}
+
+.OtherPagesHeader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15vmin;
+  font-family: 'Vollkorn SC', serif;
+  color: #171831;
+  border-style: solid;
+  border-width: 2vmin;
+  background-color: #F2E3D5;
+  padding:3vmin;
+  margin-top: 5px;
+}
+
+.SideBySideDivs2{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 10vmin;
+}
+.GroupsImage{
+  display: flex;
+  justify-content: center;
+  width:90vmin;
+  border-style: solid;
+  border-width: 2vmin;
+  color: #171831;
+}
+.GroupsTitle{
+  font-size: 7vmin;
+  font-family: 'Vollkorn SC', serif;
+}
+.GroupsText{
+  display: flex;
+  flex-direction: column;
+  font-size: 5vmin;
+  flex-wrap: wrap;
+  color: #171831;
+  border-style: solid;
+  border-width: 2vmin;
+  background-color: #F2E3D5;
+  padding:3vmin;
+  margin-top: 0px;
+  width:84vmin;
+  font-family: 'Cormorant', serif;
+}
+
+.SideBySideDivs3{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.AboutDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.AboutImage{
+  width:150vmin;
+  border-style: solid;
+  border-width: 2vmin;
+  color: #171831;
+}
+.AboutImageSBS{
+  display: flex;
+  justify-content: space-between;
+  width:73vmin;
+  height:55vmin;
+  border-style: solid;
+  border-width: 2vmin;
+  color: #171831;
+}
+.AboutText{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 10vmin;
+  text-align: center;
+  color: #171831;
+  border-style: solid;
+  border-width: 2vmin;
+  background-color: #F2E3D5;
+  padding:3vmin;
+  margin-top: 0px;
+  width:144vmin;
+  margin-bottom: 10vmin;
+  font-family: 'Cormorant', serif;
+}
+
+body{
+  background-color: #CB7B6F;
+  border-style: solid;
+  border-width: 2vmin;
+  border-color: white;
+}
+
+button{
+  width: auto;
+  height:9vmin;
+  text-align: center;
+  font-size: 7vmin;
+}
